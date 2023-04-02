@@ -7,7 +7,7 @@ export const Logo = () => {
     <div >
         <Link href={"/"}  >
         <Image
-              src="/images/jithlogo.67171ca21e0f39829edf.png"
+              src="https://res.cloudinary.com/dqgeth8jx/image/upload/v1680376302/portfolio/jithlogo.67171ca21e0f39829edf_u6iwxd.png"
               alt="logo"
               width={50}
               height={50}

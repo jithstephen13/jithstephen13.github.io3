@@ -7,7 +7,7 @@ import AnimatedText from "../../components/AnimatedText"
  
 const ProjectDtl=[
   {name:"TradeMart",
-imag:"/tradeMart.ee82727d0146154405f8.png",  
+imag:"https://res.cloudinary.com/dqgeth8jx/image/upload/v1680443538/portfolio/tradeMart.ee82727d0146154405f8_u2ywnb.png",  
 dsc:"TredMart is clone website of IndiaMart. IndiaMart Indian e-commerce company that provides B2B and customer to customer sales services via its web portal",
 tech:[ "react" ,"mongodb", "react-router", "mongoose", "expressjs","redux", "-thunk",  "firebase", "chakra UI"],
 Responsibility:"Backend user Login/Sign up Page Admin Login/Sign up Page Product pages , Single Product Page Pop up",
@@ -17,7 +17,7 @@ git:"https://github.com/jithstephen13/TradeMart"},
 
 
 {name:"Folkore",
-imag:"/folklore.8eab392bfe5ae4c5c00f.png",  
+imag:"https://res.cloudinary.com/dqgeth8jx/image/upload/v1680443538/portfolio/folklore.8eab392bfe5ae4c5c00f_intguh.png",  
 dsc:"Folkore is built with the reference website anthropologie.com It is an e-commerce website that sells clothing, jewelry, home furniture, decorations, beauty products, and gifts and it was completed within just 5 days",
 tech:["react", "redux", "express", "mongodb", "redux-thunk", "reactredux", "chakra UI",],
 Responsibility:"Home Page ,Navbar,Footer, user Login/Sign up Page Admin Login/Sign up Page",
@@ -26,7 +26,7 @@ git:"https://github.com/jithstephen13/Folklore"},
 
 
 {name:"Aqua Shop.com",
-imag:"/shope.com.01a577d78fda57eccb6c.png",  
+imag:"https://res.cloudinary.com/dqgeth8jx/image/upload/v1680443538/portfolio/shope.com.01a577d78fda57eccb6c_a9s4qg.png",  
 dsc:"Aqua Shop is a new kind of shopping comparison site that offers the most comprehensive shopping experience on the web This Project was collaboratively built by Five members and it was completed within just 5 days",
 tech:[ "HTML" ,"JavaSript" , "CSS" , "React" , "Chakra UI" , "ReactRedux"],
 Responsibility:"Admin Page - Admin page operation, setting up React-Redux- Product Page Sorting",
@@ -35,21 +35,21 @@ git:"https://aqua-shop.netlify.app/"},
 
 
 {name:"Temp_Ray website",
-imag:"/Rentmojo.57b8c600f29c400ea503.png",  
+imag:"https://res.cloudinary.com/dqgeth8jx/image/upload/v1680443538/portfolio/Rentmojo.57b8c600f29c400ea503_hruvns.png",  
 dsc:"It is the clone of Rentmojo.com this website provides furniture and appliance for rentThis Project was individually built by me and it was completed within just 5 days",
 tech:["HTML" , "JavaSript" , "CSS" , "React" , "Chakra UI"],
 Responsibility:"Home Page, Admin page, Login/Sign up Page,Product page, Cart Page Navbar, Footer",
 dep:"https://tem-ray-app.netlify.app/",
 git:"https://github.com/jithstephen13/Temp_Ray-app/tree/main/temp_app"},
 {name:"Temp_Ray website",
-imag:"/Rentmojo.57b8c600f29c400ea503.png",  
+imag:"https://res.cloudinary.com/dqgeth8jx/image/upload/v1680443538/portfolio/Rentmojo.57b8c600f29c400ea503_hruvns.png",  
 dsc:"It is the clone of Rentmojo.com this website provides furniture and appliance for rentThis Project was individually built by me and it was completed within just 5 days",
 tech:["HTML" , "JavaSript" , "CSS" , "React" , "Chakra UI"],
 Responsibility:"Home Page, Admin page, Login/Sign up Page,Product page, Cart Page Navbar, Footer",
 dep:"https://tem-ray-app.netlify.app/",
 git:"https://github.com/jithstephen13/Temp_Ray-app/tree/main/temp_app"},
 {name:"Temp_Ray website",
-imag:"/Rentmojo.57b8c600f29c400ea503.png",  
+imag:"https://res.cloudinary.com/dqgeth8jx/image/upload/v1680443538/portfolio/Rentmojo.57b8c600f29c400ea503_hruvns.png",  
 dsc:"It is the clone of Rentmojo.com this website provides furniture and appliance for rentThis Project was individually built by me and it was completed within just 5 days",
 tech:["HTML" , "JavaSript" , "CSS" , "React" , "Chakra UI"],
 Responsibility:"Home Page, Admin page, Login/Sign up Page,Product page, Cart Page Navbar, Footer",
@@ -79,7 +79,7 @@ const projects = () => {
       <div className="text-center ">
     
       <Image
-            src={`/images/${item.imag}`}
+            src={`${item.imag}`}
             alt={item.name}
             width={800}
             height={1000} 
@@ -90,7 +90,7 @@ const projects = () => {
     </div>
          
           <p className="mb-4">{item.dsc}</p>
-          <div className="grid grid-cols-4 gap-2 mb-6">
+          <div className="flex flex-wrap gap-2 mb-6">
             <span className="font-bold">Tech Stack: </span>
           {
             item.tech.map((item,itn)=><button key={Math.random()} className="bg-black text-white h-8 p-2">{item}</button>)
