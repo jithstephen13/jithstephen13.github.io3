@@ -21,7 +21,7 @@ const about = () => {
       <div className="md:w-1/2 flex flex-col justify-center">
         
         <p>
-          Hi, my name is <span className="font-bold text-purple-700">Jith</span>  and I am a{" "}
+          Hi, my name is <span className="font-bold text-purple-700">Jith Stephen</span>  and I am a{" "}
           <span className="font-bold text-purple-700">{"highly ambitious "}</span>and 
           <span className="font-bold text-purple-700">{" self-motivated "}</span>, 
            
@@ -29,13 +29,14 @@ const about = () => {
         </p>
         <br />
         <p>
-          I complted Full Stack Web Developement from Masai School with  1200 hr Coding experience.and looking to enhance my professional experience with an IT company specializing in web development. I am armed with a deep sense of responsibility and enthusiasm to give 110% for any endeavor.
+          I completed Full Stack Web Developement from Masai School with  1200 hours of  Coding experience,and looking to enhance
+           my professional experience with an IT company specializing in web development. I am course with a deep sense of responsibility and enthusiasm to give 110% for any endeavor.
         </p>
         <br />
         <p>
           
           I am always seeking new experiences and love to keep myself
-          engaged and learning new things.
+          engaged with  learning new things,
         </p>
         <br />
         <p>
@@ -44,8 +45,7 @@ const about = () => {
             never stop growing
           </span>{" "}
           and that&#39;s what I strive to do, I have a passion for
-          technology and a desire to always push the limits of what is
-          possible. I am excited to see where my career takes me and am
+          technology and  desire to always push my limits . I am excited to see where my career leads me and am
           always open to new opportunities.
         </p>
         
