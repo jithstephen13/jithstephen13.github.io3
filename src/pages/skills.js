@@ -2,9 +2,17 @@ import Image from 'next/image'
 import React from 'react'
 import GitHubCalendar from 'react-github-calendar'
 import AnimatedText from '../../components/AnimatedText'
+import Head from 'next/head'
 
 const skills = () => {
   return (
+    <>
+    <Head>
+      <title>Jith Stephen</title>
+      <meta name="description" content="jith stephen portfolio" />
+      
+    </Head>
+    <main  >
     <section id="Skills">
     <div className="my-12 pb-12 md:pt-16 md:pb-48 flex flex-col">
       <h1 className="text-center font-bold text-4xl">
@@ -16,7 +24,7 @@ const skills = () => {
       <div className="grid grid-cols-2 md:grid-cols-4 sm:grid-cols-3 gap-4 m-auto ">
           <div className="rounded-full">
           <Image
-          src="/icons8-html-5-color/icons8-html-5-96.svg"
+          src="https://res.cloudinary.com/dqgeth8jx/image/upload/v1680447206/portfolio/icons/icons8-html-5-96_wwblrr.png"
           alt=""
           width={100}
           height={100}
@@ -25,7 +33,7 @@ const skills = () => {
           </div>
           <div className="rounded-full">
           <Image
-          src="/icons8-html-5-color/icons8-css3-96.svg"
+          src="https://res.cloudinary.com/dqgeth8jx/image/upload/v1680447206/portfolio/icons/icons8-css3-96_g85yye.png"
           alt=""
           width={100}
           height={100}
@@ -34,7 +42,7 @@ const skills = () => {
           </div>
           <div className="rounded-full">
           <Image
-          src="/icons8-html-5-color/icons8-javascript-96.svg"
+          src="https://res.cloudinary.com/dqgeth8jx/image/upload/v1680447205/portfolio/icons/icons8-javascript-96_s18ya5.png"
           alt=""
           width={100}
           height={100}
@@ -43,7 +51,7 @@ const skills = () => {
           </div>
           <div className="rounded-full">
           <Image
-          src="/icons8-html-5-color/icons8-react-80.svg"
+          src="https://res.cloudinary.com/dqgeth8jx/image/upload/v1680447205/portfolio/icons/icons8-react-100_ajv0he.png"
           alt=""
           width={100}
           height={100}
@@ -52,7 +60,7 @@ const skills = () => {
           </div>
           <div className="rounded-full">
           <Image
-          src="/icons8-html-5-color/icons8-redux-96.svg"
+          src="https://res.cloudinary.com/dqgeth8jx/image/upload/v1680447205/portfolio/icons/icons8-redux-96_wbzzdi.png"
           alt=""
           width={100}
           height={100}
@@ -61,7 +69,7 @@ const skills = () => {
           </div>
           <div className="rounded-full ">
           <Image
-          src="/icons8-html-5-color/nextjs-icon-svgrepo-com.svg"
+          src="https://res.cloudinary.com/dqgeth8jx/image/upload/v1680447539/portfolio/icons/next-js.256x256_ihxpio.png"
           alt=""
           width={100}
           height={100}
@@ -70,7 +78,7 @@ const skills = () => {
           </div>
           <div className="rounded-full">
           <Image
-          src="/icons8-html-5-color/icons8-mongodb-96.svg"
+          src="https://res.cloudinary.com/dqgeth8jx/image/upload/v1680447205/portfolio/icons/icons8-mongodb-96_tvshbl.png"
           alt=""
           width={100}
           height={100}
@@ -79,7 +87,7 @@ const skills = () => {
           </div>
           <div className="rounded-full">
           <Image
-          src="/icons8-html-5-color/icons8-express-js-100.svg"
+          src="https://res.cloudinary.com/dqgeth8jx/image/upload/v1680447205/portfolio/icons/icons8-express-js-100_vslkao.png"
           alt=""
           width={100}
           height={100}
@@ -88,7 +96,7 @@ const skills = () => {
           </div>
           <div className="rounded-full">
           <Image
-          src="/icons8-html-5-color/icons8-typescript-96.svg"
+          src="https://res.cloudinary.com/dqgeth8jx/image/upload/v1680447205/portfolio/icons/icons8-typescript-96_wnsnz5.png"
           alt=""
           width={100}
           height={100}
@@ -97,7 +105,7 @@ const skills = () => {
           </div>
           <div className="rounded-full">
           <Image
-          src="/icons8-html-5-color/icons8-node-js-96.svg"
+          src="https://res.cloudinary.com/dqgeth8jx/image/upload/v1680447205/portfolio/icons/icons8-node-js-96_vhtvuk.png"
           alt=""
           width={100}
           height={100}
@@ -106,7 +114,7 @@ const skills = () => {
           </div>
           <div className="rounded-full">
           <Image
-          src="/icons8-html-5-color/icons8-chakra-ui-96.svg"
+          src="https://res.cloudinary.com/dqgeth8jx/image/upload/v1680445870/portfolio/icons/icons8-chakra-ui-96_upihks.png"
           alt=""
           width={100}
           height={100}
@@ -115,7 +123,7 @@ const skills = () => {
           </div>
           <div className="rounded-full">
           <Image
-          src="/icons8-html-5-color/icons8-tailwindcss-96.svg"
+          src="https://res.cloudinary.com/dqgeth8jx/image/upload/v1680447205/portfolio/icons/icons8-tailwind-css-96_aoqjg5.png"
           alt=""
           width={100}
           height={100}
@@ -124,7 +132,7 @@ const skills = () => {
           </div>
           <div className="rounded-full">
           <Image
-          src="/icons8-html-5-color/icons8-git-96.svg"
+          src="https://res.cloudinary.com/dqgeth8jx/image/upload/v1680447205/portfolio/icons/icons8-git-96_imuzy6.png"
           alt=""
           width={100}
           height={100}
@@ -133,7 +141,7 @@ const skills = () => {
           </div>
           <div className="rounded-full">
           <Image
-          src="/icons8-html-5-color/Threejs-logo.svg"
+          src="https://res.cloudinary.com/dqgeth8jx/image/upload/v1680447205/portfolio/icons/three-js-icon_o4o4n3.png"
           alt=""
           width={100}
           height={100}
@@ -163,7 +171,7 @@ const skills = () => {
 
       
     </div>
-  </section>
+  </section></main></>
   )
 }
 

@@ -4,6 +4,7 @@ import SlideUp from "../../components/SlideUp/SlideUp"
 import Link from "next/link"
 import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 import AnimatedText from "../../components/AnimatedText"
+import Head from "next/head"
  
 const ProjectDtl=[
   {name:"TradeMart",
@@ -48,20 +49,26 @@ tech:["HTML" , "JavaSript" , "CSS" , "React" , "Chakra UI"],
 Responsibility:"Home Page, Admin page, Login/Sign up Page,Product page, Cart Page Navbar, Footer",
 dep:"https://tem-ray-app.netlify.app/",
 git:"https://github.com/jithstephen13/Temp_Ray-app/tree/main/temp_app"},
-{name:"Temp_Ray website",
-imag:"https://res.cloudinary.com/dqgeth8jx/image/upload/v1680443538/portfolio/Rentmojo.57b8c600f29c400ea503_hruvns.png",  
-dsc:"It is the clone of Rentmojo.com this website provides furniture and appliance for rentThis Project was individually built by me and it was completed within just 5 days",
-tech:["HTML" , "JavaSript" , "CSS" , "React" , "Chakra UI"],
+{name:"Lady Queen",
+imag:"https://res.cloudinary.com/dqgeth8jx/image/upload/v1680456791/portfolio/icons/leadyQueen_olxur9.png",  
+dsc:"Lady Queen is clone website of UrbenMonky. it is an e-commerce company that provides sales services via its web portal Project was individually built by me and it was completed within just 5 days",
+tech:["HTML" , "JavaSript" , "CSS" ],
 Responsibility:"Home Page, Admin page, Login/Sign up Page,Product page, Cart Page Navbar, Footer",
-dep:"https://tem-ray-app.netlify.app/",
-git:"https://github.com/jithstephen13/Temp_Ray-app/tree/main/temp_app"},
+dep:"https://ladyqueencom.netlify.app/",
+git:"https://github.com/jithstephen13/LadyQueen"},
 
 ]
 
 
 const projects = () => {
  
-  return (
+  return (<>
+    <Head>
+      <title>Jith Stephen</title>
+      <meta name="description" content="jith stephen portfolio" />
+      
+    </Head>
+    <main  >
     <section id="Projects">
       <div className="my-12 pb-12 md:pt-16 md:pb-48">
         <h1 className="text-center font-bold text-4xl">
@@ -133,7 +140,7 @@ const projects = () => {
 
         
       </div>
-    </section>
+    </section></main></>
   )
 }
 

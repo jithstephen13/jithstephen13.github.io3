@@ -1,8 +1,15 @@
 import React from 'react'
 import AnimatedText from '../../components/AnimatedText'
+import Head from 'next/head'
 
 const about = () => {
-  return ( <section id="about">
+  return ( <>
+    <Head>
+      <title>Jith Stephen</title>
+      <meta name="description" content="jith stephen portfolio" />
+      
+    </Head>
+    <main  >
   <div className="my-12 pb-12 md:pt-16 md:pb-48">
     <h1 className="text-center font-bold text-4xl">
     <AnimatedText text="About Me" />
@@ -46,7 +53,8 @@ const about = () => {
      
     </div>
   </div>
-</section>
+  </main>
+</>
    
   )
 }

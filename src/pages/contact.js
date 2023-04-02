@@ -5,6 +5,7 @@ import emailjs from "@emailjs/browser";
 import { Behance, GithubIcon, LinkedInIcon } from "../../components/SvgCompo/Svgicons";
 import { motion } from "framer-motion";
 import AnimatedText from "../../components/AnimatedText";
+import Head from "next/head";
 
 
 
@@ -75,8 +76,15 @@ const contact = () => {
 
 
   return (
+    <>
+    <Head>
+      <title>Jith Stephen</title>
+      <meta name="description" content="jith stephen portfolio" />
+      
+    </Head>
+    <main  >
     <section ref={vantaRef} className={'p-0 m-0'} id="Contact">
-      <div className="my-12 pb-12 md:pt-20 md:pb-48">
+      <div >
         <h1 className="text-center font-bold text-4xl">
         <AnimatedText text={"Contact Me"}/>
           <hr className="w-6 h-1 mx-auto my-4 bg-black  border-0 rounded"></hr>
@@ -100,17 +108,17 @@ const contact = () => {
         <hr className="w-6 h-1 mx-auto my-4 bg-black  border-0 rounded"></hr>
 
         <div className='flex gap-4 item-center justify-center'>
-              <motion.a href='https://www.google.com' whileHover={{y:-2}} target={'_blank' }><GithubIcon className={"text-white w-1rem w-1rem"}/></motion.a>
-              <motion.a href='https://www.google.com' whileHover={{y:-2}}  target={'_blank' }><LinkedInIcon className={"text-white w-1rem w-1rem"}/></motion.a>
+              <motion.a href='https://github.com/jithstephen13' whileHover={{y:-2}} target={'_blank' }><GithubIcon className={"text-white w-1rem w-1rem"}/></motion.a>
+              <motion.a href='https://www.linkedin.com/in/jithstephen13/' whileHover={{y:-2}}  target={'_blank' }><LinkedInIcon className={"text-white w-1rem w-1rem"}/></motion.a>
             
-             <motion.a href='https://www.google.com' whileHover={{y:-2}} target={'_blank' }> <Behance className={"text-white"}/></motion.a>
+             <motion.a href='https://www.behance.net/jithstephen' whileHover={{y:-2}} target={'_blank' }> <Behance className={"text-white"}/></motion.a>
 
 
               
             </div> 
               
       </div>
-    </section>
+    </section></main></>
   )
 }
 
