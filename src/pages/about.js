@@ -22,18 +22,18 @@ const about = () => {
         
         <p>
           Hi, my name is <span className="font-bold text-purple-700">Jith</span>  and I am a{" "}
-          <span className="font-bold text-purple-700">{"highly ambitious "}</span>,
-          <span className="font-bold text-purple-700">{" self-motivated"}</span>, and
+          <span className="font-bold text-purple-700">{"highly ambitious "}</span>and 
+          <span className="font-bold text-purple-700">{" self-motivated "}</span>, 
            
-           <span className="font-bold text-purple-700">Full Stack Web Developer</span>
+           <span className="font-bold text-purple-700">Full Stack Web Developer{" "}</span>
         </p>
         <br />
         <p>
-          I complted Full Stack Web Developer from Masai School having 1200 hr Coding experience.and looking to enhance my professional experience with an IT company specializing in web development. I am armed with a deep sense of responsibility and enthusiasm to give 110% for any endeavor.
+          I complted Full Stack Web Developement from Masai School with  1200 hr Coding experience.and looking to enhance my professional experience with an IT company specializing in web development. I am armed with a deep sense of responsibility and enthusiasm to give 110% for any endeavor.
         </p>
         <br />
         <p>
-          I have a wide range of hobbies and passions that keep me busy.
+          
           I am always seeking new experiences and love to keep myself
           engaged and learning new things.
         </p>
