@@ -36,6 +36,11 @@ export const Navbar = () => {
 
   const [navbar, setNavbar] = useState(false)
 
+  const openInNewTab = (url) => {
+    const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+    if (newWindow) newWindow.opener = null
+}
+
 
   return (
     <header className='flex items-center justify-between bg-dark py-6 px-8 sticky top-0 relative z-10'>
@@ -60,7 +65,7 @@ export const Navbar = () => {
 
             <nav className='hidden md:flex gap-4 item-top justify-center'>
             <a href="https://drive.google.com/uc?export=download&id=1RpHZgTgGbC4Y5xsCedBbqq_YIL-hFUYh">
-               <button  className=" bg-blue-600 rounded-sm py-1 rounded-full-50% hover:bg-purple-700 hover:text-white transition duration-200 
+               <button  onClick={() => openInNewTab("https://drive.google.com/file/d/1RpHZgTgGbC4Y5xsCedBbqq_YIL-hFUYh/view?usp=sharing")} className=" bg-blue-600 rounded-sm py-1 rounded-full-50% hover:bg-purple-700 hover:text-white transition duration-200 
                                                           font-playfair px-2 bg-red">
                 <h4> Resume </h4>
                    </button>
@@ -92,8 +97,9 @@ export const Navbar = () => {
               
             
              <nav className='flex md:hidden gap-4 item-top justify-center'>
+              
             <a href="https://drive.google.com/uc?export=download&id=1RpHZgTgGbC4Y5xsCedBbqq_YIL-hFUYh">
-               <button  className=" bg-blue-600 rounded-sm py-1 rounded-full-50% hover:bg-purple-700 hover:text-white transition duration-200 
+               <button onClick={() => openInNewTab("https://drive.google.com/file/d/1RpHZgTgGbC4Y5xsCedBbqq_YIL-hFUYh/view?usp=sharing")} className=" bg-blue-600 rounded-sm py-1 rounded-full-50% hover:bg-purple-700 hover:text-white transition duration-200 
                                                           font-playfair px-2 bg-red">
                 <h4> Resume </h4>
                    </button>

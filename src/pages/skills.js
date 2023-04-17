@@ -3,6 +3,7 @@ import React from 'react'
 import GitHubCalendar from 'react-github-calendar'
 import AnimatedText from '../../components/AnimatedText'
 import Head from 'next/head'
+import TransitionEfect from "../../components/TransitionEffectes/TransitionEfect"
 
 const skills = () => {
   return (
@@ -13,6 +14,7 @@ const skills = () => {
       
     </Head>
     <main  >
+    <TransitionEfect/>
     <section id="Skills">
     <div className="my-12 pb-12 md:pt-16 md:pb-48 flex flex-col">
       <h1 className="text-center font-bold text-4xl">

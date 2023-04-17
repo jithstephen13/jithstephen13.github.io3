@@ -5,8 +5,17 @@ import Link from "next/link"
 import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 import AnimatedText from "../../components/AnimatedText"
 import Head from "next/head"
+import TransitionEfect from "../../components/TransitionEffectes/TransitionEfect"
  
 const ProjectDtl=[
+  {name:"Budget Store",
+  imag:"https://res.cloudinary.com/dqgeth8jx/image/upload/v1681715501/portfolio/Screenshot-2023-04-15-195404_osfrtk.webp",  
+  dsc:"Budget Store is a web-based platform that enables users to find and rent products online with ease. It offers a secure payment gateway to ensure customers' information and transactions are protected, as well as a user-friendly interface",
+  tech:["HTML" , "JavaSript" , "CSS" , "React" , "Chakra UI","Redux toolkit"," Tailwind CSS"],
+  Responsibility:"Home Page, Admin page, Login/Sign up Page,Product page, Cart Page Navbar, Footer",
+  dep:"https://budget-store.netlify.app/",
+  git:"https://github.com/jithstephen13/BudgetStore"},
+
   {name:"TradeMart",
 imag:"https://res.cloudinary.com/dqgeth8jx/image/upload/v1680443538/portfolio/tradeMart.ee82727d0146154405f8_u2ywnb.png",  
 dsc:"TradeMart is clone website of IndiaMart. IndiaMart Indian e-commerce company that provides B2B and customer to customer sales services via its web portal",
@@ -42,13 +51,7 @@ tech:["HTML" , "JavaSript" , "CSS" , "React" , "Chakra UI"],
 Responsibility:"Home Page, Admin page, Login/Sign up Page,Product page, Cart Page Navbar, Footer",
 dep:"https://tem-ray-app.netlify.app/",
 git:"https://github.com/jithstephen13/Temp_Ray-app/tree/main/temp_app"},
-{name:"Temp_Ray website",
-imag:"https://res.cloudinary.com/dqgeth8jx/image/upload/v1680443538/portfolio/Rentmojo.57b8c600f29c400ea503_hruvns.png",  
-dsc:"It is the clone of Rentmojo.com this website provides furniture and appliance for rentThis Project was individually built by me and it was completed within just 5 days",
-tech:["HTML" , "JavaSript" , "CSS" , "React" , "Chakra UI"],
-Responsibility:"Home Page, Admin page, Login/Sign up Page,Product page, Cart Page Navbar, Footer",
-dep:"https://tem-ray-app.netlify.app/",
-git:"https://github.com/jithstephen13/Temp_Ray-app/tree/main/temp_app"},
+
 {name:"Lady Queen",
 imag:"https://res.cloudinary.com/dqgeth8jx/image/upload/v1680456791/portfolio/icons/leadyQueen_olxur9.png",  
 dsc:"Lady Queen is clone website of Urban Monkey. it is an e-commerce company that provides sales services via its web portal Project was individually built by me and it was completed within just 5 days",
@@ -69,6 +72,7 @@ const projects = () => {
       
     </Head>
     <main  >
+    <TransitionEfect/>
     <section id="Projects">
       <div className="my-12 pb-12 md:pt-16 md:pb-48">
         <h1 className="text-center font-bold text-4xl">

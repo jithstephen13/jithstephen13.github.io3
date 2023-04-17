@@ -6,6 +6,8 @@ import { Behance, GithubIcon, LinkedInIcon } from "../../components/SvgCompo/Svg
 import { motion } from "framer-motion";
 import AnimatedText from "../../components/AnimatedText";
 import Head from "next/head";
+import TransitionEfect from "../../components/TransitionEffectes/TransitionEfect"
+import Image from 'next/image'
 
 
 
@@ -83,6 +85,7 @@ const contact = () => {
       
     </Head>
     <main  >
+    <TransitionEfect/>
     <section ref={vantaRef} className={'p-0 m-0'} id="Contact">
       <div >
         <h1 className="text-center font-bold text-4xl">
@@ -105,19 +108,30 @@ const contact = () => {
                               font-playfair text-center cursor-pointer  " >sent</button>
                         </form>
         </div>
+         <div className="flex flex-col justify-center items-center text-white">
+         <a href = "mailto: jithstephen96@gmail.com"> <div className=" flex"> <Image  alt="pro"
+            width={25}
+            height={25} src="https://res.cloudinary.com/dqgeth8jx/image/upload/v1681718204/portfolio/email_rnmp9t.png" /> <p>Send Email</p></div> </a>
+         <a href="tel:+919526272502">  <div className=" flex"> <Image  alt="pro"
+            width={25}
+            height={25} src="https://res.cloudinary.com/dqgeth8jx/image/upload/v1681718204/portfolio/telephone_kclste.png" /> <p>+91 9526272502</p></div></a>
+         <p>wayanad,kerala</p>
+
+         </div>
         <hr className="w-6 h-1 mx-auto my-4 bg-black  border-0 rounded"></hr>
 
         <div className='flex gap-4 item-center justify-center'>
               <motion.a href='https://github.com/jithstephen13' whileHover={{y:-2}} target={'_blank' }><GithubIcon className={"text-white w-1rem w-1rem"}/></motion.a>
               <motion.a href='https://www.linkedin.com/in/jithstephen13/' whileHover={{y:-2}}  target={'_blank' }><LinkedInIcon className={"text-white w-1rem w-1rem"}/></motion.a>
             
-             <motion.a href='https://www.behance.net/jithstephen' whileHover={{y:-2}} target={'_blank' }> <Behance className={"text-white"}/></motion.a>
+              <motion.a href='https://www.behance.net/jithstephen' whileHover={{y:-2}} target={'_blank' }> <Behance className={"text-white"}/></motion.a>
 
 
               
             </div> 
               
       </div>
+
     </section></main></>
   )
 }

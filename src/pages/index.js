@@ -6,7 +6,7 @@ import { useEffect, useRef, useState } from "react";
 import * as THREE from "three";
 import BIRDS from 'vanta/dist/vanta.fog.min'
 import {motion} from "framer-motion"
-
+import TransitionEfect from "../../components/TransitionEffectes/TransitionEfect"
 
 
 export default function Home() {
@@ -39,19 +39,21 @@ export default function Home() {
     }
   return (
     <>
+ 
       <Head>
         <title>Jith Stephen</title>
         <meta name="description" content="jith stephen portfolio" />
         
       </Head>
       <main  className=' text-black m-0 p-0 ' >
+        <TransitionEfect/>
           <section className='m-0 p-0 min-h-screen py-12' ref={vantaRef}>
         <div  className="flex flex-col  text-center items-center justify-center animate-fadeIn 
                          animation-delay-2  sm:py-30 md:py-2 md:flex-row
                           md:space-x-4 md:text-left   ">
         <div className="md:mt-2 mr-0 md:w-1/2">
            <Image
-            src="https://res.cloudinary.com/dqgeth8jx/image/upload/v1680428003/portfolio/profile-image.c859b27bfd739f0bc9f3-removebg-preview_kwvmpg.png"
+            src="https://res.cloudinary.com/dqgeth8jx/image/upload/v1681551756/portfolio/profile-image.c859b27bfd739f0bc9f3-removebg-preview_kwvmpg_xxhxp3.webp"
             alt="pro"
             width={325}
             height={325}
