@@ -30,7 +30,7 @@ const skills = () => {
           alt=""
           width={100}
           height={100}
-          className="rounded-full ml-10 shadow-2xl"
+          className="rounded-full  md:ml-10   shadow-2xl"
         />
           </div>
           <div className="rounded-full">
@@ -39,7 +39,7 @@ const skills = () => {
           alt=""
           width={100}
           height={100}
-          className="rounded-full ml-10 shadow-2xl"
+          className="rounded-full ml-10 mr-10 shadow-2xl"
         />
           </div>
           <div className="rounded-full">
@@ -48,7 +48,7 @@ const skills = () => {
           alt=""
           width={100}
           height={100}
-          className="rounded-full ml-10 shadow-2xl"
+          className="rounded-full md:ml-10 mr-10 shadow-2xl"
         />
           </div>
           <div className="rounded-full">
@@ -57,7 +57,7 @@ const skills = () => {
           alt=""
           width={100}
           height={100}
-          className="rounded-full ml-10 shadow-2xl"
+          className="rounded-full ml-10 mr-10 shadow-2xl"
         />
           </div>
           <div className="rounded-full">
@@ -66,7 +66,7 @@ const skills = () => {
           alt=""
           width={100}
           height={100}
-          className="rounded-full ml-10 shadow-2xl"
+          className="rounded-full md:ml-10 mr-10 shadow-2xl"
         />
           </div>
           <div className="rounded-full ">
@@ -75,7 +75,7 @@ const skills = () => {
           alt=""
           width={100}
           height={100}
-          className="rounded-full ml-10 bg-white border-black shadow-2xl"
+          className="rounded-full ml-10 mr-10 bg-white border-black shadow-2xl"
         />
           </div>
           <div className="rounded-full">
@@ -84,7 +84,7 @@ const skills = () => {
           alt=""
           width={100}
           height={100}
-          className="rounded-full ml-10 shadow-2xl"
+          className="rounded-full md:ml-10 shadow-2xl"
         />
           </div>
           <div className="rounded-full">
@@ -93,7 +93,7 @@ const skills = () => {
           alt=""
           width={100}
           height={100}
-          className="rounded-full ml-10 bg-white shadow-2xl"
+          className="rounded-full ml-10 mr-10 bg-white shadow-2xl"
         />
           </div>
           <div className="rounded-full">
@@ -102,7 +102,7 @@ const skills = () => {
           alt=""
           width={100}
           height={100}
-          className="rounded-full ml-10 shadow-2xl"
+          className="rounded-full md:ml-10 mr-10 shadow-2xl"
         />
           </div>
           <div className="rounded-full">
@@ -111,7 +111,7 @@ const skills = () => {
           alt=""
           width={100}
           height={100}
-          className="rounded-full ml-10 shadow-2xl"
+          className="rounded-full ml-10 mr-10 shadow-2xl"
         />
           </div>
           <div className="rounded-full">
@@ -120,7 +120,7 @@ const skills = () => {
           alt=""
           width={100}
           height={100}
-          className="rounded-full ml-10 shadow-2xl"
+          className="rounded-full md:ml-10 shadow-2xl"
         />
           </div>
           <div className="rounded-full">
@@ -129,7 +129,7 @@ const skills = () => {
           alt=""
           width={100}
           height={100}
-          className="rounded-full ml-10 shadow-2xl"
+          className="rounded-full ml-10 mr-10 shadow-2xl"
         />
           </div>
           <div className="rounded-full">
@@ -138,7 +138,7 @@ const skills = () => {
           alt=""
           width={100}
           height={100}
-          className="rounded-full ml-10 shadow-2xl"
+          className="rounded-full md:ml-10 mr-10 shadow-2xl"
         />
           </div>
           <div className="rounded-full">
@@ -147,7 +147,7 @@ const skills = () => {
           alt=""
           width={100}
           height={100}
-          className="rounded-full ml-10 bg-white shadow-2xl"
+          className="rounded-full ml-10 mr-10 bg-white shadow-2xl"
         />
           </div>
           
